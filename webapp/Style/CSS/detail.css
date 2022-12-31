@@ -1,0 +1,166 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+@import url(header.css);
+
+html {
+    font-family: Helvetica Neue,Helvetica,Arial,文泉驛正黑,WenQuanYi Zen Hei,Hiragino Sans GB,儷黑 Pro,LiHei Pro,Heiti TC,微軟正黑體,Microsoft JhengHei UI,Microsoft JhengHei,sans-serif;
+    font-size: 18px;
+    color: rgba(0,0,0,.8);
+    background-color: #f5f5f5;
+}
+
+main
+{
+    padding-top: 200px;
+    background-color: #f5f5f5;
+}
+
+.main-container
+{
+    background-color: white;
+    padding: 10px 0;
+    margin: 40px 12%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.detail-infor
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-infor-header
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#thongtin
+{
+    text-align: center;
+    font-size: 25px;
+}
+
+.moreinfor
+{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0;
+    gap: 20px;
+}
+
+.moreinfor p:nth-child(2)
+{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 0 20px;
+}
+
+#rating
+{
+    color: red;
+}
+.detail-infor-header p
+{
+    text-align: center;
+}
+
+.container-detail-price
+{
+    display: flex;
+    gap: 50px;
+    padding: 20px 0 20px 100px;
+    background-color: #f5f5f5;
+}
+
+.container-detail-price p
+{
+    font-size: 30px;
+    color: red;
+}
+
+#giamgia-detail
+{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    padding: 5px 5px 0 5px;
+    border-radius: 5px;
+}
+
+.more-infor
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    height: 500px;
+}
+
+.more-infor p
+{
+    display: block;
+    margin-right: 100px;
+    width: 150px;
+}
+.deal 
+{
+    display: flex;
+
+}
+
+.vanchuyen
+{
+    display: flex;
+
+}
+
+.mausac
+{
+    display: flex;
+
+}
+
+.soluogn
+{
+    display: flex;
+
+}
+
+.mua
+{
+    display: flex;
+
+}
+
+.mua a
+{
+	text-decoration: none;
+}
+
+.themvao
+{
+    background-color: red;
+    padding: 30px 30px 30px 30px;
+    width: 250px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.buy
+{
+    margin-left: 50px;
+    background-color: red;
+    padding: 30px 30px 30px 30px;
+    width: 250px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
